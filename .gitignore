@@ -2,4 +2,4 @@
 /.idea
 
 # Ignore CLion project build files
-/target
+/target/
