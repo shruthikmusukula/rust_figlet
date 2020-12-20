@@ -26,13 +26,13 @@ Some additional dependencies to be aware of in this project are the two followin
 ## Installation
 The following installation instructions are specifically for machines with [Homebrew](https://brew.sh).
 ```console
-brew tap shruthikmusukula/rust-figlet
-brew install rust-figlet
+$ brew tap shruthikmusukula/rust-figlet
+$ brew install rust-figlet
 ```
 
 ## Usage
 ```console
-rust-figlet "text in here"
+$ rust-figlet "text in here"
 ```
 - Single word inputs need not be wrapped in quotes, but multi-word inputs require quotes
 
