@@ -1,2 +1,5 @@
 # Ignore CLion IDE Files
 /.idea
+
+# Ignore CLion project build files
+/target
