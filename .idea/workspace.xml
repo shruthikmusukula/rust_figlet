@@ -21,44 +21,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="585d0fc3-f53f-49d0-b914-91ecc4a812ee" name="Default Changelist" comment="Added structopt logic for processing CLI input for output.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/rust-figlet-5d7530ee60e8e9ce/bin-rust-figlet" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rust-figlet-5d7530ee60e8e9ce/bin-rust-figlet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/rust-figlet-5d7530ee60e8e9ce/bin-rust-figlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rust-figlet-5d7530ee60e8e9ce/bin-rust-figlet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust_figlet" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust_figlet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust_figlet.dSYM/Contents/Resources/DWARF/rust_figlet" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust_figlet.dSYM/Contents/Resources/DWARF/rust_figlet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/13ehkgamk1xkh9rh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/18fjdv3rhpvsq5p.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/1978cbqe24lqd44j.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/1fmnehcx98gvd66c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/1iynko9qhs9duzjk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/1nz9kb3dgnzvugu9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/214cjgck2681lh34.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/25zsli9h8smzn3fx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/28062nyxbgmi12l.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/2abm0elpd7y3723z.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/2hdu4p9xuyyz3po2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/35it6an8gealmtd4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/38utcubcml80a02p.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/3sulmvr9epr3ds32.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/3tc11vq5okmnh8aa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/4b28ummfjywkejoi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/4bggxn3tt2nwo8ks.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/4ifjxsk2zgyxxxp2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/4o48f5yyq3v94j6n.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/4owzzngyrvprgeq1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/58dldnt5hfiefy4u.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/5bn0tk6e1147ouyg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/5fzt6kebfufksaq4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/cxwzn8b3ium649a.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/qitn463os87w3fm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy-1x4qlcauu422g/y3pbbbgexkq0tg6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/rust_figlet-3cnw99walx3ys/s-fu57kqheoq-giz9sy.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/rust-figlet" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rust-figlet" afterDir="false" />
-    </list>
+    <list default="true" id="585d0fc3-f53f-49d0-b914-91ecc4a812ee" name="Default Changelist" comment="Added structopt logic for processing CLI input for output." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608440836650</updated>
-      <workItem from="1608440838346" duration="2330000" />
+      <workItem from="1608440838346" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="Added structopt logic for processing CLI input for output.">
       <created>1608442278276</created>
