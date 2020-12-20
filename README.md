@@ -6,12 +6,12 @@
 
 * Overview
 * Dependencies
+* Installation
+* Usage
 * Additional Info
 
 ## Overview 
 A cross-platform CLI tool written to bring [FIGlet](http://www.figlet.org) to your machine. Constructed using the Rust programming language.
-
-![Failed to load Demo GIF](https://i.imgur.com/dBcqjMo.gif)
 
 ## Dependencies
 There are no depedencies required to install this CLI tool on your machine. However, if you would like to develop it further on your local machine, you will need
@@ -22,6 +22,21 @@ to use the Rust programming language.
 Some additional dependencies to be aware of in this project are the two following Crates:
 - [figlet-rs](https://crates.io/crates/figlet-rs)
 - [struct-opt](https://docs.rs/structopt/0.3.21/structopt/) for Rust CLI Parsing
+
+## Installation
+The following installation instructions are specifically for machines with [Homebrew](https://brew.sh).
+```console
+brew tap shruthikmusukula/rust-figlet
+brew install rust-figlet
+```
+
+## Usage
+```console
+rust-figlet "text in here"
+```
+- Single word inputs need not be wrapped in quotes, but multi-word inputs require quotes
+
+![Failed to load Demo GIF](https://i.imgur.com/dBcqjMo.gif)
   
 ## Additional Info
 The Homebrew Formula for this project can be found [here](https://github.com/shruthikmusukula/homebrew-rust-figlet).
