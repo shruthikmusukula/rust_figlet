@@ -11,6 +11,8 @@
 ## Overview 
 A cross-platform CLI tool written to bring [FIGlet](http://www.figlet.org) to your machine. Constructed using the Rust programming language.
 
+![Failed to load Demo GIF](https://i.imgur.com/dBcqjMo.gif)
+
 ## Dependencies
 There are no depedencies required to install this CLI tool on your machine. However, if you would like to develop it further on your local machine, you will need
 to use the Rust programming language.
