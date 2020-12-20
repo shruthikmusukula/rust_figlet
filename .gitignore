@@ -1,1 +1,2 @@
-/target
+# Ignore CLion IDE Files
+/.idea
