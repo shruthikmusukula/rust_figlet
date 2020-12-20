@@ -2,7 +2,7 @@
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/shruthikmusukula/rust_figlet)
 ![Language](https://img.shields.io/badge/language-rust-orange)
-![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
+![Platforms](https://img.shields.io/badge/platforms-macOS-blue)
 
 * Overview
 * Dependencies
