@@ -21,7 +21,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="585d0fc3-f53f-49d0-b914-91ecc4a812ee" name="Default Changelist" comment="Added structopt logic for processing CLI input for output." />
+    <list default="true" id="585d0fc3-f53f-49d0-b914-91ecc4a812ee" name="Default Changelist" comment="Added structopt logic for processing CLI input for output.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,14 +66,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +79,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608440836650</updated>
-      <workItem from="1608440838346" duration="2594000" />
+      <workItem from="1608440838346" duration="3786000" />
+      <workItem from="1608447383187" duration="1028000" />
+      <workItem from="1608451451414" duration="186000" />
+      <workItem from="1608456203997" duration="1993000" />
+      <workItem from="1608499620973" duration="52000" />
+      <workItem from="1608511756595" duration="219000" />
+      <workItem from="1609311783942" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="Added structopt logic for processing CLI input for output.">
       <created>1608442278276</created>
@@ -106,39 +110,50 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added structopt logic for processing CLI input for output." />
+    <MESSAGE value="Exclude target." />
     <option name="LAST_COMMIT_MESSAGE" value="Added structopt logic for processing CLI input for output." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608442150206">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="184" y="111" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608456760360">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608442150206" />
-    <state width="1398" height="369" key="GridCell.Tab.0.bottom" timestamp="1608442151432">
+    <state x="184" y="111" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1608456760360" />
+    <state x="524" y="361" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1608443910330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="369" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608442151432" />
-    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1608441643498" />
+    <state x="524" y="361" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1440.900@0.0.1440.900" timestamp="1608443910330" />
+    <state width="1368" height="331" key="GridCell.Tab.0.bottom" timestamp="1608497362116">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1398" height="369" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608444115120" />
+    <state width="1398" height="369" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1608446095880" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1608441510842" />
-    <state width="1398" height="369" key="GridCell.Tab.0.center" timestamp="1608442151429">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1368" height="331" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1608497362116" />
+    <state width="1368" height="331" key="GridCell.Tab.0.center" timestamp="1608497362114">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1398" height="369" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608442151429" />
-    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1608441643498" />
+    <state width="1398" height="369" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608444115117" />
+    <state width="1398" height="369" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1608446095878" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1608441510840" />
-    <state width="1398" height="369" key="GridCell.Tab.0.left" timestamp="1608442151428">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1368" height="331" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1608497362114" />
+    <state width="1368" height="331" key="GridCell.Tab.0.left" timestamp="1608497362114">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1398" height="369" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608442151428" />
-    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1608441643497" />
+    <state width="1398" height="369" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608444115115" />
+    <state width="1398" height="369" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1608446095877" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1608441510840" />
-    <state width="1398" height="369" key="GridCell.Tab.0.right" timestamp="1608442151431">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1368" height="331" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1608497362114" />
+    <state width="1368" height="331" key="GridCell.Tab.0.right" timestamp="1608497362115">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1398" height="369" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608442151431" />
-    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1608441643498" />
+    <state width="1398" height="369" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608444115119" />
+    <state width="1398" height="369" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1608446095879" />
     <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1608441510841" />
+    <state width="1368" height="331" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1608497362115" />
   </component>
 </project>
